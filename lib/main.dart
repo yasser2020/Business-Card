@@ -13,9 +13,18 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
-              Icon(Icons.star, size: 50, color: Colors.yellow),
-              Icon(Icons.star, size: 50, color: Colors.yellow),
-              Icon(Icons.star, size: 50, color: Colors.yellow),
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
+              Icon(
+                Icons.star,
+                size: 50,
+              ),
             ]))));
   }
 }
