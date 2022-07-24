@@ -7,40 +7,6 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
-            backgroundColor: Colors.white,
-            appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
-            body: SafeArea(
-                child: Column(mainAxisAlignment: MainAxisAlignment.start, children: [
-              Container(
-                color: Colors.yellow,
-                child: Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-              ),
-              Container(
-                color: Colors.yellow,
-                child: Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-              ),
-              Container(
-                color: Colors.yellow,
-                child: Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-              ),
-              Container(
-                color: Colors.yellow,
-                child: Icon(
-                  Icons.star,
-                  size: 50,
-                ),
-              ),
-            ]))));
+    return MaterialApp(home: Scaffold(backgroundColor: Colors.white, appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent), body: SafeArea(child: Container(color: Colors.yellow))));
   }
 }
