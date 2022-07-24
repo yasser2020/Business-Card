@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Container(
-                  width: 300,
+                  width: double.infinity,
                   height: 100,
                   color: Colors.white,
                   child: Text("Hello World"),
@@ -33,7 +33,6 @@ class MyApp extends StatelessWidget {
                   color: Colors.green,
                   child: Text("Hello World"),
                 ),
-                Container(width: double.infinity, height: 10, color: Colors.deepPurple)
               ],
             ))));
   }
