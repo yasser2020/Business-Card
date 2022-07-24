@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
                 child: Container(
               color: Colors.yellow,
               child: Column(children: [
-                Icon(Icons.start)
+                Icon(Icons.star)
               ]),
             ))));
   }
