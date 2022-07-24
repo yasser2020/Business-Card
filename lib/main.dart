@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
             backgroundColor: Colors.teal,
-            appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
+            // appBar: AppBar(title: Text("Mi Card"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(
               children: [
