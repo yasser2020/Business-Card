@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Container(
                   width: 100,
