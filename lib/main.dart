@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(
-              verticalDirection: VerticalDirection.up,
+              verticalDirection: VerticalDirection.down,
               children: [
                 Container(
                   width: 100,
