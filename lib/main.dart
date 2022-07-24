@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
                 child: Container(
               color: Colors.yellow,
               child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Icon(Icons.star, size: 50)
+                Icon(Icons.star, size: 50),
+                Icon(Icons.star, size: 50),
+                Icon(Icons.star, size: 50),
+                Icon(Icons.star, size: 50),
               ]),
             ))));
   }
