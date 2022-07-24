@@ -12,8 +12,10 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.blueAccent,
             appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
             body: SafeArea(
-                child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Container(color: Colors.yellow)
+                child: Row(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
+              Icon(Icons.star, size: 50, color: Colors.yellow),
+              Icon(Icons.star, size: 50, color: Colors.yellow),
+              Icon(Icons.star, size: 50, color: Colors.yellow),
             ]))));
   }
 }
