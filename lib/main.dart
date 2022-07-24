@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
                 child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
+                SizedBox(
+                  height: 20,
+                ),
                 Container(
                   height: 100,
                   color: Colors.white,
