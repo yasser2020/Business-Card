@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
             body: SafeArea(
                 child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
               Container(
+                width: 20,
                 color: Colors.yellow,
                 child: Icon(
                   Icons.star,
