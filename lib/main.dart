@@ -33,6 +33,10 @@ class MyApp extends StatelessWidget {
                   color: Colors.green,
                   child: Text("Hello World"),
                 ),
+                Container(
+                  width: double.infinity,
+                  height: 10,
+                )
               ],
             ))));
   }
