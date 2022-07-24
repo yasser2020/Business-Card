@@ -13,22 +13,19 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Container(
-                  width: double.infinity,
                   height: 100,
                   color: Colors.white,
                   child: Text("Hello World"),
                 ),
                 Container(
-                  width: 100,
                   height: 100,
                   color: Colors.red,
                   child: Text("Hello World"),
                 ),
                 Container(
-                  width: 100,
                   height: 100,
                   color: Colors.green,
                   child: Text("Hello World"),
