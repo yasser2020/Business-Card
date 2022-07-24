@@ -16,23 +16,20 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 SizedBox(
-                  height: 20,
+                  width: 20,
                 ),
                 Container(
-                  height: 100,
                   color: Colors.white,
                   child: Text("Hello World"),
                 ),
                 SizedBox(
-                  height: 20,
+                  width: 20,
                 ),
                 Container(
-                  height: 100,
                   color: Colors.red,
                   child: Text("Hello World"),
                 ),
                 Container(
-                  height: 100,
                   color: Colors.green,
                   child: Text("Hello World"),
                 ),
