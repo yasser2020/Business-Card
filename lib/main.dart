@@ -19,7 +19,28 @@ class MyApp extends StatelessWidget {
                   Icons.star,
                   size: 50,
                 ),
-              )
+              ),
+              Container(
+                color: Colors.yellow,
+                child: Icon(
+                  Icons.star,
+                  size: 50,
+                ),
+              ),
+              Container(
+                color: Colors.yellow,
+                child: Icon(
+                  Icons.star,
+                  size: 50,
+                ),
+              ),
+              Container(
+                color: Colors.yellow,
+                child: Icon(
+                  Icons.star,
+                  size: 50,
+                ),
+              ),
             ]))));
   }
 }
