@@ -9,17 +9,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.teal,
             appBar: AppBar(title: Text("Hi Yasser"), backgroundColor: Colors.redAccent),
             body: SafeArea(
-                child: Container(
-              color: Colors.yellow,
-              child: Column(crossAxisAlignment: CrossAxisAlignment.center, children: [
-                Icon(Icons.star, size: 80),
-                Icon(Icons.star, size: 50),
-                Icon(Icons.star, size: 50),
-                Icon(Icons.star, size: 50),
-              ]),
+                child: Column(
+              children: [
+                CircleAvatar(radius: 50, backgroundColor: Colors.white)
+              ],
             ))));
   }
 }
