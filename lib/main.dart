@@ -28,6 +28,10 @@ class MyApp extends StatelessWidget {
                   'Flutter Developer',
                   style: TextStyle(fontFamily: 'Source Sans Pro', color: Colors.teal.shade100, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold),
                 ),
+                SizedBox(
+                  height: 10,
+                  child: Divider(color: Colors.teal[100]),
+                ),
                 Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
