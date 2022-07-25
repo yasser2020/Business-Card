@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.teal,
             // appBar: AppBar(title: Text("Mi Card"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(
