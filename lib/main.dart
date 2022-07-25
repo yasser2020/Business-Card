@@ -22,6 +22,10 @@ class MyApp extends StatelessWidget {
                     fontSize: 40,
                     color: Colors.white,
                   ),
+                ),
+                Text(
+                  'Flutter Developer',
+                  style: TextStyle(fontFamily: 'Source Sans Pro', color: Colors.teal[100]),
                 )
               ],
             ))));
