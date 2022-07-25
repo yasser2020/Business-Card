@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                   child: ListTile(
                     leading: Icon(Icons.phone, color: Colors.teal),
-                    title: Text('+01116302064', style: TextStyle(color: Colors.white, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold)),
+                    title: Text('+01116302064', style: TextStyle(color: Colors.teal, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold)),
                   ),
                 ),
                 Container(
