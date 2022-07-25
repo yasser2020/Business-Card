@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
             // appBar: AppBar(title: Text("Mi Card"), backgroundColor: Colors.redAccent),
             body: SafeArea(
                 child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CircleAvatar(radius: 60, backgroundImage: AssetImage('images/will.jpg')),
                 Text(
