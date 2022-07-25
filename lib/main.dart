@@ -30,17 +30,9 @@ class MyApp extends StatelessWidget {
                 Card(
                   color: Colors.white,
                   margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                  child: Row(
-                    children: [
-                      Icon(Icons.phone, color: Colors.teal),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Text(
-                        '+01116302064',
-                        style: TextStyle(fontSize: 20, fontFamily: 'Source Sans Pro', color: Colors.teal.shade900),
-                      )
-                    ],
+                  child: ListTile(
+                    leading: Icon(Icons.phone, color: Colors.teal),
+                    title: Text('+01116302064', style: TextStyle(color: Colors.white, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold)),
                   ),
                 ),
                 Container(
