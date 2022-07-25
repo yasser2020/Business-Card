@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
                 Text(
                   'Will Smith',
                   style: TextStyle(
+                    fontFamily: 'Pacifico',
                     fontSize: 40,
                     color: Colors.white,
                   ),
