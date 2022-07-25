@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
                   style: TextStyle(fontFamily: 'Source Sans Pro', color: Colors.teal.shade100, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
-                  height: 100,
+                  height: 20,
                   child: Divider(color: Colors.red),
                 ),
                 Card(
