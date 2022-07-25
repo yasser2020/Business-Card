@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 ),
                 SizedBox(
                   height: 20,
-                  child: Text('dddddddddddddd'),
+                  child: Divider(color: Colors.red),
                 ),
                 Card(
                   color: Colors.white,
