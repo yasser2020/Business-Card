@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
                       leading: Icon(Icons.email, color: Colors.teal),
                       title: Text(
                         'yezzat2020@gmail.com',
-                        style: TextStyle(color: Colors.teal, fontWeight: FontWeight.bold, fontSize: 20),
+                        style: TextStyle(color: Colors.teal, fontSize: 20),
                       ),
                     ))
               ],
