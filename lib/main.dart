@@ -31,6 +31,9 @@ class MyApp extends StatelessWidget {
                   child: Row(
                     children: [
                       Icon(Icons.phone, color: Colors.white),
+                      SizedBox(
+                        width: 20,
+                      ),
                       Text(
                         '+01116302064',
                         style: TextStyle(fontFamily: 'Source Sans Pro', color: Colors.teal.shade900),
