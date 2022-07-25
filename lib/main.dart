@@ -26,6 +26,17 @@ class MyApp extends StatelessWidget {
                 Text(
                   'Flutter Developer',
                   style: TextStyle(fontFamily: 'Source Sans Pro', color: Colors.teal.shade100, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold),
+                ),
+                Container(
+                  child: Row(
+                    children: [
+                      Icon(Icons.phone, color: Colors.white),
+                      Text(
+                        '+01116302064',
+                        style: TextStyle(fontFamily: 'Source Sans Pro', color: Colors.teal.shade900),
+                      )
+                    ],
+                  ),
                 )
               ],
             ))));
