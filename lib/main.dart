@@ -35,23 +35,16 @@ class MyApp extends StatelessWidget {
                     title: Text('+01116302064', style: TextStyle(color: Colors.teal, fontSize: 20, letterSpacing: 2.5, fontWeight: FontWeight.bold)),
                   ),
                 ),
-                Container(
-                  color: Colors.white,
-                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                  padding: EdgeInsets.all(10),
-                  child: Row(
-                    children: [
-                      Icon(Icons.email, color: Colors.teal),
-                      SizedBox(
-                        width: 20,
-                      ),
-                      Text(
+                Card(
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                    child: ListTile(
+                      leading: Icon(Icons.email, color: Colors.teal),
+                      title: Text(
                         'yezzat2020@gmail.com',
-                        style: TextStyle(fontSize: 20, fontFamily: 'Source Sans Pro', color: Colors.teal.shade900),
-                      )
-                    ],
-                  ),
-                )
+                        style: TextStyle(color: Colors.white, letterSpacing: 2.5),
+                      ),
+                    ))
               ],
             ))));
   }
